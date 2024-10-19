@@ -148,7 +148,6 @@ public:
         cout << endl; // End the line after printing the table
     }
 };
-
 int main() {
     int initialSize = 7; 
     HashTable ht(initialSize);
