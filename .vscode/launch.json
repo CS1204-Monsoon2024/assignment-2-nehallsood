@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/nehalsood/Documents/GitHub/assignment-2-nehallsood",
+      "program": "/Users/nehalsood/Documents/GitHub/assignment-2-nehallsood/build/Debug/outDebug"
+    }
+  ]
+}
