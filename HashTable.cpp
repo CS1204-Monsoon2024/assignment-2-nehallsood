@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-// Helper function to check if a number is prime
+// helper function to check if a number is prime
 bool isPrime(int n) {
     if (n <= 1) return false;
     for (int i = 2; i * i <= n; i++) {
@@ -11,7 +11,7 @@ bool isPrime(int n) {
     return true;
 }
 
-// Helper function to find the next prime number greater than or equal to `n`
+// helper function to find the next prime number greater than or equal to `n`
 int nextPrime(int n) {
     while (!isPrime(n)) {
         n++;
